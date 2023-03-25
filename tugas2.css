@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  margin-top: 20px;
+}
+
+#input {
+  width: 50%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+#input td {
+  border: 1px solid #ccc;
+}
+#input th {
+  background-color: #f2f2f2;
+}
+
+.btn {
+  background-color: #f2f2f2;
+}
+
+table tr th {
+  font-size: 24px;
+  padding: 10px;
+}
+
+#input td {
+  padding: 10px;
+}
+
+#input input[type="text"],
+#input select,
+#input input[type="number"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#input button[type="submit"] {
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+}
+
+#input button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+#tampil {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 50%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+#tampil td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#tampil th {
+  border: 1px solid #ccc;
+}
+
+#tampil tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
